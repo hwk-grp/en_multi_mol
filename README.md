@@ -41,8 +41,8 @@ This directory contains the scripts to predict molecular properties using $\chi_
 ### `data`
 This directory contains the datasets in **.xlsx** format used in this work. The datasets used in **4.prediction** are preprocessed.
 
-### `feats`
-This directory contains example files of $\chi_{ML}$ from `2.generate_en.GCN_EN` and `3.generate_en.AEO`.
+### `en_sample`
+This directory contains sample files of $\chi_{ML}$ from `2.generate_en.GCN_EN` and `3.generate_en.AEO`.
 
 ### `pretrained_gcn`
 This directory contains the pre-trained GCN model from `3.generate_en.AEO/0.save_pretrained_gcn`.
