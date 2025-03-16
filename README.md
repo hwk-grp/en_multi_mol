@@ -1,5 +1,6 @@
 # The Nature of Chemical Bonds in the Age of Artificial Intelligence: Revisiting Electronegativity of Organic Molecules
 DOI: 10.5281/zenodo.14776538
+
 <img src="Figure 1.png" width=90% height=90%>
 
 ## Table 1: Atomic information for the generation of one-hot encoding vectors and corresponding $\chi_{ML}$
@@ -48,4 +49,26 @@ This directory contains sample files of $\chi_{ML}$ from `2.generate_en.GCN_EN` 
 This directory contains the pre-trained GCN model from `3.generate_en.AEO/0.save_pretrained_gcn`.
 
 ### `environment.yaml`
-To replicate the virtual environment used in this study.
+The virtual environment is prepared as environment.yaml. It has minimal settings to run our code.
+
+name: chi_ml
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=1.13.1
+  - scikit-learn=1.3.0
+  - rdkit=2023.3.2
+  - mendeleev=0.10.0
+  - openpyxl=3.0.10
+  - pandas=1.3.5
+  - pip
+  - pip:
+      - torch-geometric
+      - torch-cluster
+      - torch-scatter
+      - torch-sparse
+      - mealpy==2.5.4
+      - tqdm==4.66.0
