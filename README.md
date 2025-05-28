@@ -1,5 +1,5 @@
 # The Nature of Chemical Bonds in the Age of Artificial Intelligence: Revisiting Electronegativity of Organic Molecules
-DOI: 10.5281/zenodo.14776538
+
 
 <img src="Figure 1.png" width=90% height=90%>
 
